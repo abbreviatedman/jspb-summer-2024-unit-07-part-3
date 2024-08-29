@@ -102,14 +102,8 @@ console.log(capitalized); // Elephant
 // The concise syntax of the arrow function makes it well suited for deployment
 // as the callback function of array methods, map() and filter()
 
-// We will now do a map-filter chaining example, first as a "regular" function
-// and then with arrow functons. The function specs are as follows:
-
-// - the function will take an array of user objects
-// - the function will a new array, adminNames, containing the names of all
-//    users with an admin property set to true
-
-// First, we'll do the map-filter chaining version with the **function** keyword.
+// We will now do a map-filter chaining example, first with "regular" functions
+// as callbacks and then with arrow functions.
 
 // 13. Declare an array, users, of user objects:
 
